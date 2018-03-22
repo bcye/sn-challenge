@@ -43,7 +43,7 @@ body {
 /* login form/label */
 .form-label {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 form {
@@ -52,4 +52,22 @@ form {
     margin-bottom: 5%;
     margin-top: 5%;
 }
+.text-input {
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 1.25em;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
 
+.button {
+    width: 60%;
+    height: 60px;
+    background-color: green;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+}
