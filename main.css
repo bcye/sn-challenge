@@ -4,8 +4,8 @@
 }
 
 /* background image */
-html { 
-    background: url(https://pixabay.com/get/e831b30a2ff11c3e95594002ef4c4392fe76e7d718b7174291f9c7/farbrausch-142575.jpg) no-repeat center center fixed; 
+body { 
+    background: url(https://pixabay.com/en/photos/download/farbrausch-142575_1920.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,7 +13,7 @@ html {
   }
 
 #content {
-
+    background-color: white;
 }
 
 /* center vertically + horizontally */
@@ -38,4 +38,10 @@ html {
     margin: 0;
     padding: 0;
     background-color: transparent;
+}
+
+/* login form/label */
+.form-label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
 }
